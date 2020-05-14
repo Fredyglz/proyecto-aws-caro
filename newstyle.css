@@ -1,0 +1,56 @@
+.Encabezado{
+    background-color: rgb(188, 143, 143);
+    height: 100px;
+    text-align: center;
+    font-size: xx-large;
+    font-family:'Pacifico', cursive ;
+    
+}
+.piePagina{
+    background-color: rgb(188, 143, 143);
+    height: 100px;
+    font-family:'Pacifico', cursive ;
+    text-align: center;
+}
+
+.cuerpo{
+    background-color: peachpuff;
+}
+.imagen{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    
+}
+.articulos{
+    display: inline-block;
+    padding: 15px;
+}
+.parrafo{
+    font-family:'Pacifico', cursive ;
+    background-color:lightgray;
+    font-size: xx-large;
+    text-align: center;
+}
+.division{
+    display: none;
+}
+input[type="button"]{
+    color: mediumturquoise;
+    font-size: small;
+    width: 50px;
+    height: 50px;
+}
+@media screen and (max-width: 600px){
+    .parrafo{
+        font-size: medium;
+    }
+    .articulos{
+        display: block;
+        padding: 2px;
+    }
+    .imagen{
+        width: 200px;
+        height: 200px;
+    }
+}
